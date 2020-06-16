@@ -1,6 +1,11 @@
 #include "holberton.h"
 
-int main()
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
 	_putchar('H');
 	_putchar('o');
@@ -12,5 +17,5 @@ int main()
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-	return 0;
+	return (0);
 }
