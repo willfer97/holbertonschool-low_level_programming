@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
  * main - Print numbers 1-100
@@ -25,7 +24,7 @@ int main(void)
 		}
 		else
 		{
-		printf("%d ", n);
+		printf("%d", n);
 		}
 		if (n != 100)
 		{
