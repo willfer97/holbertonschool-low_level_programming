@@ -6,10 +6,14 @@
  */
 void puts2(char *str)
 {
-	for (; *str != '\0'; str++)
+	int c;
+
+	for (; str[c] != '\0'; c++)
 	{
-		if (*str != '1' && *str != '3' && *str != '5' && *str != '7' && *str != '9')
-			_putchar(*str);
+		if (c % 2 == 0)
+		{
+			_putchar(str[c]);
+		}
 	}
 	_putchar('\n');
 }
