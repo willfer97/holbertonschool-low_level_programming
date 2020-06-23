@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * rev_string - Function to reverse string
- * @s: imput to reverse string∑∫
+ * @s: imput to reverse string.
  */
 void rev_string(char *s)
 {
