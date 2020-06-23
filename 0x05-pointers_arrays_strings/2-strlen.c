@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <string.h>
 /**
  * _strlen - Function used to return value of lenght
  * @s: variable declared char for return strlen
@@ -8,6 +7,7 @@
 int _strlen(char *s)
 {
 	int c;
+
 	c = 0;
 
 	while (*s != '\0')
