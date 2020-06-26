@@ -10,9 +10,9 @@ char *string_toupper(char *c)
 
 	while (c[i])
 	{
-		i++;
 		if (c[i] > 'a' && c[i] < 'z')
 			c[i] -= 32;
+		i++;
 	}
 	return (c);
 }
